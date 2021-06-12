@@ -17,7 +17,7 @@
 
 Breast cancer constitutes as one of the fatal diseases in the world and about the major deaths among the female population is due to the prolonged time in the process of detection and reporting of the cancerous tissues in the affected part. The traditional pattern for detecting the disease is not rapid and requires time and special machined methods.
 
-The raw dataset originally consisted of some missing values of attributes, the examples having missing attributes were removed to create a decision tree for the analysis of rule base. The derived rule base and the data base (membership functions) were fed into an inference engine which was based upon the Mamdani method. After fetching the results from the inference engine, defuzzification was carried. Defuzzification which is based upon the center of area most commonly known as centroid method was performed to obtain the single crisp output for the prediction of the sample.
+The raw dataset originally consisted of some missing values of attributes, the examples having missing attributes were removed to create a decision tree for the analysis of rule base. The derived rule base and the data base (membership functions) were fed into an inference engine which was based upon the Mamdani method. After fetching the results from the inference engine, defuzzification was carried. Defuzzification which is based upon the center of area most commonly known as centroid method was performed to obtain the single crisp output for the prediction of the sample. 
 
 ## Demo
 
@@ -33,16 +33,8 @@ https://user-images.githubusercontent.com/43119465/121770619-efda0b80-cb87-11eb-
 > # Flow of the Process
 > ![flow](https://user-images.githubusercontent.com/43119465/121770749-d2f20800-cb88-11eb-9de1-03b7d9076f15.png)
 
+Kindly refer to Fuzzy Logics and Mamdani Method for FIS to learn more about the project.
 
-Markdown is a lightweight markup language based on the formatting conventions
-that people naturally use in email.
-As [John Gruber] writes on the [Markdown site][df1]
-
-
-
-This text you see here is *actually- written in Markdown! To get a feel
-for Markdown's syntax, type some text into the left window and
-watch the results in the right.
 
 ## Tech
 SheCare is built on top of the following technologies: 
@@ -56,7 +48,6 @@ SheCare is built on top of the following technologies:
 
 SheCare requires Python 3.9, MATLAB Fuzzy Toolbox and Jupyter to be installed on the system.
 
-Install the dependencies and devDependencies and start the server.
 
 ```sh
 Open the GUI Folder and install the dependencies
@@ -79,8 +70,7 @@ MIT
 
 _This project is not OPEN SOURCED. Copying or stealing any part of the code or reproducing the files at another place without the prior knowledge of the owner can lead to strict actions/jurisdiction as part of the license. Kindly avoid this._
 
-˜
-_This project is not OPEN SOURCED. Copying or stealing any part of the code or reproducing the files at another place without the prior knowledge of the owner can lead to strict actions/jurisdiction as part of the license. Kindly avoid this.
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)  By Team Genesis
 
 
 
