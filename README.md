@@ -2,13 +2,17 @@
 ## Fuzzy Based Expert System for Detection of Breast Cancer
 ### _Built using Python ,MATLAB, Tkinter Framework_
 
-[![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/) 
-[![Made withJupyter](https://img.shields.io/badge/Made%20with-Jupyter-orange?style=for-the-badge&logo=Jupyter)](https://jupyter.org/try)
+[![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
+[![Made with MATLAB](https://img.shields.io/badge/Built%20With-MATLAB-blue?style=for-the-badge&logo=appveyor)](https://in.mathworks.com/?s_tid=gn_logo)
+
+
+[![Open In Collab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1kdziARCjrVUgYILNEDWGcxMoEQVpXybS?usp=sharing)
+
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
 
-> # Breast cancer 
+> # About the Project / Research
 
 
 Breast cancer constitutes as one of the fatal diseases in the world and about the major deaths among the female population is due to the prolonged time in the process of detection and reporting of the cancerous tissues in the affected part. The traditional pattern for detecting the disease is not rapid and requires time and special machined methods.
@@ -21,7 +25,14 @@ https://user-images.githubusercontent.com/43119465/121770619-efda0b80-cb87-11eb-
 
 ## Features
 
--
+- Compact and fast
+- Cloud processing capabilities
+- Precision ready values
+- Lightweight application and easy to containerise
+
+> # Flow of the Process
+> ![flow](https://user-images.githubusercontent.com/43119465/121770749-d2f20800-cb88-11eb-9de1-03b7d9076f15.png)
+
 
 Markdown is a lightweight markup language based on the formatting conventions
 that people naturally use in email.
@@ -41,33 +52,40 @@ SheCare is built on top of the following technologies:
 - [Tkinter](https://docs.python.org/3/library/tkinter.html) - Package based on Py to create graphical user interface. 
 
 
-## Installation
+> ## Installation
 
 SheCare requires Python 3.9, MATLAB Fuzzy Toolbox and Jupyter to be installed on the system.
 
 Install the dependencies and devDependencies and start the server.
 
 ```sh
-cd dillinger
-npm i
-node app
+Open the GUI Folder and install the dependencies
+cd "matlabroot\extern\engines\python"
+python setup.py install
+
 ```
-
-For production environments...
-
+Or
 ```sh
-npm install --production
-NODE_ENV=production node app
+cd "c:\Program Files\MATLAB\R2019b\extern\engines\python" 
+python setup.py install --prefix="c:\work\matlab19bPy36"
 ```
+- Set up the MATLAB Toolbox with your account
+- Update the main.ipnyb on your local system and run all the cells
 
-
-
+The windows application is ready to be installed with the .exe file in GUI folder. Install and run. If the engine is running on your local system with correct endpoints, correct output will be generated in the window.
 
 ## License
-
 MIT
 
-**Free Software**
+_This project is not OPEN SOURCED. Copying or stealing any part of the code or reproducing the files at another place without the prior knowledge of the owner can lead to strict actions/jurisdiction as part of the license. Kindly avoid this._
+
+˜
+_This project is not OPEN SOURCED. Copying or stealing any part of the code or reproducing the files at another place without the prior knowledge of the owner can lead to strict actions/jurisdiction as part of the license. Kindly avoid this.
+
+
+
+
+
 
 
 
