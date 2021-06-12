@@ -15,7 +15,9 @@ Breast cancer constitutes as one of the fatal diseases in the world and about th
 
 The raw dataset originally consisted of some missing values of attributes, the examples having missing attributes were removed to create a decision tree for the analysis of rule base. The derived rule base and the data base (membership functions) were fed into an inference engine which was based upon the Mamdani method. After fetching the results from the inference engine, defuzzification was carried. Defuzzification which is based upon the center of area most commonly known as centroid method was performed to obtain the single crisp output for the prediction of the sample.
 
+## Demo
 
+https://user-images.githubusercontent.com/43119465/121770619-efda0b80-cb87-11eb-8dfb-4a6282dbbe85.mp4
 
 ## Features
 
